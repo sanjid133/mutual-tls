@@ -1,0 +1,17 @@
+package: github.com/sanjid133/mutual-tls
+import:
+- package: github.com/appscode/go
+  subpackages:
+  - log/golog
+  - term
+- package: github.com/appscode/kutil
+  subpackages:
+  - tools/certstore
+- package: github.com/spf13/afero
+  version: v1.0.1
+- package: github.com/spf13/cobra
+  version: v0.0.1
+- package: k8s.io/client-go
+  version: v6.0.0
+  subpackages:
+  - util/homedir
